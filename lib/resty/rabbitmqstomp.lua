@@ -20,9 +20,9 @@ _VERSION = "0.1"
 
 local mt = { __index = _M }
 
-local LF = "\x0a"
-local EOL = "\x0d\x0a"
-local NULL_BYTE = "\x00"
+local LF = "\n"
+local EOL = '\n'
+local NULL_BYTE = "\0"
 local STATE_CONNECTED = 1
 local STATE_COMMAND_SENT = 2
 
